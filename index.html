@@ -18,10 +18,18 @@
             <main></main>
             <footer></footer>
 
+            <div></div>
+
             Title:
             <h1></h1> 
                 .... 
             <h6></h6>
+
+
+            Text:
+            <p></p>
+            <a href="link_here"></a> // Link
+            <span></span> // For little text part
 
 
 
@@ -30,14 +38,20 @@
          <title>Session 2</title>
          <link rel="stylesheet" href="index.css" >
 
+         <script type="text/javascript">
+            setTimeout(() => {
+                document.getElementById('header').remove()
+            }, 1_000)
+         </script>
+
     </head>
 
 
 
     <body>
-         <header>
+         <header id="header">
             <!-- LEFT LOGO BLOCK -->
-            <div>
+            <div id="logo">
                 <!-- Text in link -->
                 <a href="#home"> LOGO </a>
             </div>
