@@ -1,0 +1,23 @@
+header {
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background: yellowgreen;
+    display: flex;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-blue {
+    color: aqua;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
